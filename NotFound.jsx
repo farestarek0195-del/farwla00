@@ -1,0 +1,1 @@
+import{Link}from'react-router-dom';export default function NotFound(){return <div className="empty page-404"><h1>404</h1><p>الصفحة مش موجودة.</p><Link to="/" className="btn btn-primary">Home</Link></div>}
